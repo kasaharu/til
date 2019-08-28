@@ -1,3 +1,14 @@
+## Input プロパティへのバインド
+- 以下のようにショートハンドで書ける (ref. [inputプロパティへのバインド](https://angular.jp/guide/attribute-directives#inputプロパティへのバインド))
+
+```html
+<p [appHighlight]="color">Highlight me!</p>
+```
+
+```ts
+@Input() appHighlight: string;
+```
+
 ## Unit Test
 - directive を使用するテスト用のコンポーネントを用意
 - テスト用のコンポーネントから fixture を生成し `debugElement.query` で DebugElement を取り出す
