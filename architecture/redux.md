@@ -6,3 +6,8 @@
   - 密結合になっているなら同じファイルにあったほうが修正時のコストが抑えられる
 - ルールとしては下記
   - reducer を `export default` にする
+
+## re-ducks
+- [Building on the duck legacy](https://github.com/alexnm/re-ducks)
+- Ducks で管理していたファイルを役割ごとに分けたもの
+  -  ファイルが大きくなってきたときに有効 → 逆にファイルが小さい場合は Ducks でよさそう
