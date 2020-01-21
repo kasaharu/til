@@ -1,3 +1,15 @@
+## * は ng-template のシンタックスシュガー
+```html
+<div *ngIf="hero" class="name">{{hero.name}}</div>
+
+<!-- 上と同義 -->
+<ng-template [ngIf]="hero">
+  <div class="name">{{hero.name}}</div>
+</ng-template>
+```
+
+
+
 ## Input プロパティへのバインド
 - 以下のようにショートハンドで書ける (ref. [inputプロパティへのバインド](https://angular.jp/guide/attribute-directives#inputプロパティへのバインド))
 
