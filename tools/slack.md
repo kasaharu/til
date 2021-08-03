@@ -3,4 +3,6 @@
 ```
 # 平日午前 9 時に channel-name チャンネルに xxx と通知する
 /remind #channel-name xxxx every weekday at 9am
+
+/remind #channel-name xxxx on 01/01/2020
 ```
