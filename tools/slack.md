@@ -5,4 +5,6 @@
 /remind #channel-name xxxx every weekday at 9am
 
 /remind #channel-name xxxx on 01/01/2020
+
+/remind #channel-name xxxx every Friday at 3pm
 ```
